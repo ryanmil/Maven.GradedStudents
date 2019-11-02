@@ -11,7 +11,7 @@ public class ClassroomTest {
     @Test
     public void getAverageExamScore() {
         Double[] scores1 = {100.0, 100.0, 100.0};
-        ArrayList<Double> scoresList1 = new ArrayList<Double>(Arrays.asList(scores1));
+        ArrayList<Double> scoresList1 = new ArrayList<>(Arrays.asList(scores1));
         Student student1 = new Student("Oi", "Yo", scoresList1);
 
         Double[] scores2 = {50.0, 75.0, 100.0};
